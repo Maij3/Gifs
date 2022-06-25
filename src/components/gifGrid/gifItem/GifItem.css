@@ -1,0 +1,10 @@
+.flex-item {
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    width: 80%;
+}
+@media only screen and (max-width: 767px){
+    .flex-item {
+	border-radius: unset;
+    }
+}
