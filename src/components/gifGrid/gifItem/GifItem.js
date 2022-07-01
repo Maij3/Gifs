@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { Box } from "@chakra-ui/react";
 import './GifItem.css'
 const GifItem = ({ url }) => {
@@ -10,6 +11,10 @@ const GifItem = ({ url }) => {
       />
     </Box>
   );
+};
+
+GifItem.propTypes = {
+    url : PropTypes.string.isRequired,
 };
 
 export default GifItem;
